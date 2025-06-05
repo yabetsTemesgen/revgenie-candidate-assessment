@@ -1,0 +1,105 @@
+{
+  "status": "debug_info",
+  "message": "RLS Policy Debug Information",
+  "debug": {
+    "user": {
+      "id": "2b6cf90a-65c3-4b52-99ad-3fbd1d04f60e",
+      "email": "glass.benedikt@gmail.com",
+      "aud": "authenticated",
+      "role": "authenticated"
+    },
+    "authCheck": {
+      "auth_uid": "2b6cf90a-65c3-4b52-99ad-3fbd1d04f60e",
+      "auth_jwt": {
+        "aal": "aal1",
+        "amr": [
+          {
+            "method": "password",
+            "timestamp": 1748850361
+          }
+        ],
+        "aud": "authenticated",
+        "exp": 1748857478,
+        "iat": 1748853878,
+        "iss": "https://czjiltgsgqeprwplvzja.supabase.co/auth/v1",
+        "sub": "2b6cf90a-65c3-4b52-99ad-3fbd1d04f60e",
+        "role": "authenticated",
+        "email": "glass.benedikt@gmail.com",
+        "phone": "",
+        "session_id": "30e2bc97-dc99-40e6-a1a1-dfd74b36d91b",
+        "app_metadata": {
+          "provider": "email",
+          "providers": [
+            "email"
+          ]
+        },
+        "is_anonymous": false,
+        "user_metadata": {
+          "sub": "2b6cf90a-65c3-4b52-99ad-3fbd1d04f60e",
+          "email": "glass.benedikt@gmail.com",
+          "full_name": "Bene",
+          "email_verified": true,
+          "phone_verified": false
+        }
+      },
+      "current_user": "postgres",
+      "session_user": "authenticator",
+      "current_setting_jwt_claims": "{\"aal\":\"aal1\",\"amr\":[{\"method\":\"password\",\"timestamp\":1748850361}],\"app_metadata\":{\"provider\":\"email\",\"providers\":[\"email\"]},\"aud\":\"authenticated\",\"email\":\"glass.benedikt@gmail.com\",\"exp\":1748857478,\"iat\":1748853878,\"is_anonymous\":false,\"iss\":\"https://czjiltgsgqeprwplvzja.supabase.co/auth/v1\",\"phone\":\"\",\"role\":\"authenticated\",\"session_id\":\"30e2bc97-dc99-40e6-a1a1-dfd74b36d91b\",\"sub\":\"2b6cf90a-65c3-4b52-99ad-3fbd1d04f60e\",\"user_metadata\":{\"email\":\"glass.benedikt@gmail.com\",\"email_verified\":true,\"full_name\":\"Bene\",\"phone_verified\":false,\"sub\":\"2b6cf90a-65c3-4b52-99ad-3fbd1d04f60e\"}}"
+    },
+    "testData": [
+      {
+        "count": 0
+      }
+    ],
+    "testInsert": {
+      "success": true,
+      "company_id": "6da1bc09-6fac-4b7a-b0fa-514d45804c8c",
+      "auth_context": {
+        "auth_uid": "2b6cf90a-65c3-4b52-99ad-3fbd1d04f60e",
+        "auth_jwt": {
+          "aal": "aal1",
+          "amr": [
+            {
+              "method": "password",
+              "timestamp": 1748850361
+            }
+          ],
+          "aud": "authenticated",
+          "exp": 1748857478,
+          "iat": 1748853878,
+          "iss": "https://czjiltgsgqeprwplvzja.supabase.co/auth/v1",
+          "sub": "2b6cf90a-65c3-4b52-99ad-3fbd1d04f60e",
+          "role": "authenticated",
+          "email": "glass.benedikt@gmail.com",
+          "phone": "",
+          "session_id": "30e2bc97-dc99-40e6-a1a1-dfd74b36d91b",
+          "app_metadata": {
+            "provider": "email",
+            "providers": [
+              "email"
+            ]
+          },
+          "is_anonymous": false,
+          "user_metadata": {
+            "sub": "2b6cf90a-65c3-4b52-99ad-3fbd1d04f60e",
+            "email": "glass.benedikt@gmail.com",
+            "full_name": "Bene",
+            "email_verified": true,
+            "phone_verified": false
+          }
+        },
+        "current_user": "postgres",
+        "session_user": "authenticator",
+        "current_setting_jwt_claims": "{\"aal\":\"aal1\",\"amr\":[{\"method\":\"password\",\"timestamp\":1748850361}],\"app_metadata\":{\"provider\":\"email\",\"providers\":[\"email\"]},\"aud\":\"authenticated\",\"email\":\"glass.benedikt@gmail.com\",\"exp\":1748857478,\"iat\":1748853878,\"is_anonymous\":false,\"iss\":\"https://czjiltgsgqeprwplvzja.supabase.co/auth/v1\",\"phone\":\"\",\"role\":\"authenticated\",\"session_id\":\"30e2bc97-dc99-40e6-a1a1-dfd74b36d91b\",\"sub\":\"2b6cf90a-65c3-4b52-99ad-3fbd1d04f60e\",\"user_metadata\":{\"email\":\"glass.benedikt@gmail.com\",\"email_verified\":true,\"full_name\":\"Bene\",\"phone_verified\":false,\"sub\":\"2b6cf90a-65c3-4b52-99ad-3fbd1d04f60e\"}}"
+      }
+    },
+    "directError": "new row violates row-level security policy for table \"companies\"",
+    "directErrorDetails": {
+      "code": "42501",
+      "details": null,
+      "hint": null,
+      "message": "new row violates row-level security policy for table \"companies\""
+    }
+  },
+  "timestamp": "2025-06-02T09:08:15.052Z"
+}

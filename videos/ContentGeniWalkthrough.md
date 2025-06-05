@@ -1,0 +1,1 @@
+[Content Manager Genie Walkthrough - Loom Video](https://www.loom.com/share/e7d9dfd07ff644b3bc8fd2e79f49a2a0?sid=2162eaae-8d74-4c6f-8cf5-50c0768217e3)

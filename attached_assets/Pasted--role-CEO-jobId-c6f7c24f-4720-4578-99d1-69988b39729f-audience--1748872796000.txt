@@ -1,0 +1,64 @@
+{
+    "role": "CEO",
+    "jobId": "c6f7c24f-4720-4578-99d1-69988b39729f",
+    "audience": {
+        "targetAudience": "SMB B2B Marketing, Sales, and Customer Success teams seeking streamlined, accessible AI-powered process automation without the burden of large-scale implementation.",
+        "geographicMarkets": [
+            "United Kingdom",
+            "Europe",
+            "North America"
+        ]
+    },
+    "fullName": "Grant Crow",
+    "resources": [
+        ""
+    ],
+    "brandStyles": {
+        "brandVoices": [
+            "technical",
+            "helpful"
+        ],
+        "competitors": [
+            "11x.ai",
+            "genesy.ai",
+            "vesely.ai"
+        ],
+        "differentiator": "Ready-to-use, modular AI agents tailored for SMBs, enabling rapid deployment and enterprise-level performance without requiring extensive custom development or large budgets.",
+        "keyMarketingMessages": [
+            "Unlock growth with modular AI agents",
+            "Enterprise-level sales & marketing automation for SMBs"
+        ]
+    },
+    "companyName": "RevGeni.ai",
+    "company_name": "TEST",
+    "businessGoals": {
+        "customObjectives": [],
+        "expandedSections": {
+            "increase_leads": true
+        },
+        "selectedObjectives": [
+            "increase_leads",
+            "boost_revenue",
+            "grow_brand",
+            "optimize_funnel"
+        ],
+        "objectiveDescriptions": {
+            "grow_brand": "Positioning RevGeni.ai as the go-to AI automation solution for SMB sales and marketing teams looking to do more with less, through targeted outreach and thought leadership.",
+            "expand_team": "Planning to grow the team by adding 5-10 new roles in engineering and marketing over the next year to support product development and growth initiatives.",
+            "boost_revenue": "Drive business revenue growth by enabling customers to achieve higher performance with fewer resources, resulting in greater client satisfaction and upsell opportunities.",
+            "raise_funding": "Preparing for a Series A funding round in the next 6-8 months, targeting $5-7M to accelerate growth and product development.",
+            "automate_tasks": "Looking to implement automation for repetitive marketing and customer onboarding tasks to improve efficiency and reduce operational costs.",
+            "increase_leads": "Aiming to increase qualified lead generation for SMB B2B teams by 30% in the next quarter through deployment of AI-powered agents and optimized workflow automation.",
+            "optimize_funnel": "Working to improve conversion rates throughout the sales funnel, particularly focusing on the demo-to-paid conversion which is currently at 15%.",
+            "enter_new_markets": "Exploring expansion into European markets in the next 12 months, with particular focus on Germany and the UK.",
+            "retain_existing_customers": "Looking to retain existing customers by providing exceptional customer service and support."
+        }
+    },
+    "companyOverview": {
+        "industry": "Software & Technology",
+        "employees": "1-10",
+        "description": "RevGeni.ai delivers pre-built AI agents, known as Genies, designed to automate and optimize Marketing, Sales, and Customer Success operations for small and medium-sized B2B businesses. Their solutions address pain points in lead generation, content creation, CRM updates, and process efficiency, enabling clients to achieve more with fewer resources. RevGeni.ai’s platform provides accessible, task-specific digital assistants that drive data-driven decision-making and business growth, catering especially to organizations seeking AI-powered improvements without the need for extensive custom development."
+    },
+    "companyWebsiteUrl": "revgeni.ai/",
+    "companyLinkedInUrl": "www.linkedin.com/company/revgeniai/posts/?feedView=all"
+}
